@@ -6,8 +6,8 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ChatGPT-Midjourney",
-  description: "Your personal ChatGPT+Midjourney Chat Bot.",
+  title: "AI考拉-公益站",
+  description: "使用最新Midjourney官方AI绘图接口",
   viewport: {
     width: "device-width",
     initialScale: 1,
