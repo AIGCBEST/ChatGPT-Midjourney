@@ -268,9 +268,9 @@ const cn = {
       NoAccess: "输入 API Key 或访问密码查看余额",
     },
     AccessCode: {
-      Title: "访问密码",
+      Title: "密钥 Key",
       SubTitle: "免费发布在QQ频道-Midjourney",
-      Placeholder: "请输入访问密码",
+      Placeholder: "请输入QQ频道发布的密钥 Key",
     },
     Endpoint: {
       Title: "接口地址",
