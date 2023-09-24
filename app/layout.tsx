@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     statusBarStyle: "default",
   },
 };
+
 export default function RootLayout({
   children,
 }: {
@@ -36,28 +37,13 @@ export default function RootLayout({
         <style>
           {`
             body {
-              background: linear-gradient(#ffc0cb, #87cefa);
-            }
-            a {
-              text-decoration: none;
-              color: inherit;
-            }
-            .footer {
-              font-size: 18px;
-              position: absolute;
-              bottom: 20px;
-              text-align: center;
-              width: 100%;
-              font-size: 14px;
+              background: linear-gradient(to bottom, #ffffff, #f2f2f2);
             }
           `}
         </style>
       </head>
       <body>
-        {children}
-        <div class="footer">
-          © 2023 <a href="https://link3.cc/aipro" target="_blank">AI实验室</a>. All rights reserved.
-        </div>
+        <div>{children}</div>
       </body>
     </html>
   );
