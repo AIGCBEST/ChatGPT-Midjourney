@@ -122,6 +122,7 @@
     height: var(--full-height);
     transition: all ease 0.3s;
     box-shadow: none;
+    background: linear-gradient(#ffc0cb, #87cefa);
   }
 
   .sidebar-show {
@@ -165,7 +166,7 @@
 
 .chat-item {
   padding: 10px 14px;
-  background-color: var(--black);
+  background-color: var(--white);
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
