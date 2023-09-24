@@ -599,6 +599,18 @@ export function Settings() {
 
         <List>
           <ListItem
+            title={`MidjourneyProxy ${Locale.Midjourney.Url}`}
+            subTitle={Locale.Midjourney.SettingProxyCoverTip}
+          >
+            <input
+              type="text"
+              value={accessStore.midjourneyProxyUrl}
+              onChange={(e) => {
+                accessStore.updateMidjourneyProxyUrl(e.currentTarget.value);
+              }}
+            />
+          </ListItem>
+          <ListItem
             title={`Midjourney ${Locale.Midjourney.ImageAgent}`}
             subTitle={Locale.Midjourney.ImageAgentOpenTip}
           >

@@ -129,9 +129,6 @@ export const usePromptStore = create<PromptStore>()(
       },
 
       search(text) {
-          if (text.startsWith("mj ")) {
-              return [];
-          }
         if (text.length === 0) {
           // return all rompts
           return get().getUserPrompts().concat(SearchService.builtinPrompts);

@@ -16,7 +16,7 @@ const nextConfig = {
 
     if (disableChunk) {
       config.plugins.push(
-          new webpack.optimize.LimitChunkCountPlugin({ maxChunks: 1 }),
+        new webpack.optimize.LimitChunkCountPlugin({ maxChunks: 1 }),
       );
     }
 
@@ -65,10 +65,6 @@ if (mode !== "export") {
       {
         source: "/api/proxy/:path*",
         destination: "https://api.openai.com/:path*",
-      },
-      {
-        source: "/cdn/discordapp/:path*",
-        destination: "https://cdn.discordapp.com/:path*",
       },
       {
         source: "/google-fonts/:path*",
