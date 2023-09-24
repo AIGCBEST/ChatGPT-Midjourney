@@ -34,16 +34,20 @@ export default function RootLayout({
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
-        <style>
-          {`
-            body {
-              background: linear-gradient(to bottom, #ffffff, #f2f2f2);
-            }
-          `}
-        </style>
       </head>
       <body>
-        <div>{children}</div>
+        {children}
+        <div
+          style={{
+            position: 'absolute',
+            bottom: '20px',
+            textAlign: 'center',
+            width: '100%',
+            fontSize: '14px',
+          }}
+        >
+          &copy; 2023 <a href="https://link3.cc/aipro" target="_blank">AI实验室</a>. All rights reserved.
+        </div>
       </body>
     </html>
   );
