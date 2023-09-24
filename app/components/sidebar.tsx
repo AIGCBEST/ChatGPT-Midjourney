@@ -140,9 +140,9 @@ export function SideBar(props: { className?: string }) {
         />
         <IconButton
           icon={<GemIcon />}
-          text={shouldNarrow ? undefined : "完整版"}
+          text={shouldNarrow ? undefined : "Pro"}
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.open(https://hello.aigc369.com/)}
+          onClick={() => window.open(https://hello.aigc369.com, "_blank")}
           shadow
         />
       </div>
