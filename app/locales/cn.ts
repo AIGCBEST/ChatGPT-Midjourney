@@ -304,7 +304,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "自动同步MJ官方最新接口，并赠送不限次ChatGPT使用次数，使用说明👉 **[点击查看](https://ssw9noe1h6.feishu.cn/docx/Eooid40EVoHXiMxqqS5cA6DJnpc)**\n\n**[👉点这里关注主页](https://link3.cc/aipro)**\n\n**声明：密码 Key 仅限一台设备登录，我们有权在不进行任何通知的情况下对多 IP 登录的 Key 进行永久封禁**",
+    BotHello: "自动同步Midjourney官方最新接口，并赠送不限次ChatGPT使用次数，使用说明👉 **[点击查看](https://ssw9noe1h6.feishu.cn/docx/Eooid40EVoHXiMxqqS5cA6DJnpc)**\n\n**[👉点这里关注主页](https://link3.cc/aipro)**\n\n**声明：密码 Key 仅限一台设备登录，我们有权在不进行任何通知的情况下对多 IP 登录的 Key 进行永久封禁**",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
