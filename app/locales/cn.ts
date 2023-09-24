@@ -7,8 +7,8 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "当前密钥 Key 不正确或为空，请在[设置](/#/settings)中输入密钥 Key 后解锁无限使用\n\n密钥免费更新在QQ频道 👉 [点击加入](https://pd.qq.com/s/43ts2mp9l)"
-      : "当前密钥 Key 不正确或为空，请在[设置](/#/settings)中输入密钥 Key 后解锁无限使用\n\n密钥免费更新在QQ频道 👉 [点击加入](https://pd.qq.com/s/43ts2mp9l)",
+      ? "当前密钥 Key 不正确或为空，请在[设置](/#/settings)中输入密钥 Key 后解锁无限使用\n\n密钥免费更新在QQ频道-Midjourney 👉 [点击加入](https://pd.qq.com/s/43ts2mp9l)"
+      : "当前密钥 Key 不正确或为空，请在[设置](/#/settings)中输入密钥 Key 后解锁无限使用\n\n密钥免费更新在QQ频道-Midjourney 👉 [点击加入](https://pd.qq.com/s/43ts2mp9l)",
   },
   Auth: {
     Title: "需要密码",
@@ -269,7 +269,7 @@ const cn = {
     },
     AccessCode: {
       Title: "访问密码",
-      SubTitle: "管理员已开启加密访问",
+      SubTitle: "免费发布在QQ频道-Midjourney",
       Placeholder: "请输入访问密码",
     },
     Endpoint: {
@@ -304,7 +304,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "自动同步Midjourney官方最新接口，并赠送不限次ChatGPT使用次数，使用说明👉 **[点击查看](https://ssw9noe1h6.feishu.cn/docx/Eooid40EVoHXiMxqqS5cA6DJnpc)**\n\n**[👉点这里关注主页](https://link3.cc/aipro)**\n\n**声明：密码 Key 仅限一台设备登录，我们有权在不进行任何通知的情况下对多 IP 登录的 Key 进行永久封禁**",
+    BotHello: "自动同步Midjourney官方最新接口，并赠送不限次ChatGPT使用次数，使用说明👉 **[点击查看](https://ssw9noe1h6.feishu.cn/docx/Eooid40EVoHXiMxqqS5cA6DJnpc)**\n\n**[👉点这里关注主页](https://link3.cc/aipro)**",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
