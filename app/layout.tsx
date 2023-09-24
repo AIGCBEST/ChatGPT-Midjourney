@@ -35,7 +35,21 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
       </head>
-      <body>{children}</body>
+      <body>{children} <style>
+    body {
+      background: linear-gradient(#ffc0cb, #87cefa);
+    }
+    /* 取消链接下划线 */
+    a {
+      text-decoration: none;
+      color: inherit; /* 继承父元素的颜色 */
+    }
+
+    /* 修改字体大小 */
+    .footer {
+      font-size: 18px;
+    }
+  </style></body>
     </html>
   );
 }
