@@ -1,6 +1,6 @@
 export const OWNER = "Licoy";
 export const REPO = "ChatGPT-Midjourney";
-export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
+export const REPO_URL = `https://link3.cc/aipro/`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
 export const RELEASE_URL = `${REPO_URL}/releases`;
@@ -66,11 +66,11 @@ Current time: {{time}}`;
 export const DEFAULT_MODELS = [
   {
     name: "gpt-4",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-4-0314",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-4-0613",
@@ -78,15 +78,15 @@ export const DEFAULT_MODELS = [
   },
   {
     name: "gpt-4-32k",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-4-32k-0314",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-4-32k-0613",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-3.5-turbo",
@@ -110,7 +110,7 @@ export const DEFAULT_MODELS = [
   },
   {
     name: "midjourney",
-    available: false,
+    available: true,
   },
 ] as const;
 
