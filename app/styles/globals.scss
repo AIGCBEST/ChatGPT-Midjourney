@@ -12,7 +12,7 @@
   --second: rgb(231, 248, 255);
   --hover-color: #f3f3f3;
   --bar-color: rgba(0, 0, 0, 0.1);
-  --theme-color: linear-gradient(#ffc0cb, #87cefa);
+  --theme-color: var(--gray);
 
   /* shadow */
   --shadow: 50px 50px 100px 10px rgb(0, 0, 0, 0.1);
@@ -94,7 +94,7 @@ html {
 }
 
 body {
-  background-color: var(--gray);
+  background-color: linear-gradient(#ffc0cb, #87cefa);
   color: var(--black);
   margin: 0;
   padding: 0;
