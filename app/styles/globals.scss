@@ -94,7 +94,8 @@ html {
 }
 
 body {
-  background-color: linear-gradient(#ffc0cb, #87cefa);
+  background: linear-gradient(#ffc0cb, #87cefa); 
+  background-color: var(--gray);
   color: var(--black);
   margin: 0;
   padding: 0;
