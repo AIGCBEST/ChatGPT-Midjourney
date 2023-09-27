@@ -304,7 +304,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "自动同步Midjourney官方最新接口，并赠送不限次ChatGPT使用次数\n\n必须用/mj+关键词（支持中文）开启绘图功能，否则自动使用GPT，使用聊天框上方的上传文件上传图片后自动开启垫图，识图，混图功能，更多使用说明[点击查看](https://ssw9noe1h6.feishu.cn/docx/Eooid40EVoHXiMxqqS5cA6DJnpc)\n\n[👉 点这里关注主页](https://link3.cc/aipro)\n\n🍯 状态监测：\n\n[![状态](https://status.aigc369.com/api/badge/15/uptime/1?suffix=%25%E5%8F%AF%E7%94%A8&color=00cc00&labelColor=777777&style=flat-square)](https://status.aigc369.com/status/aipro)",
+    BotHello: "🤖 自动同步Midjourney官方最新接口，并赠送不限次ChatGPT使用次数\n\n🎨 必须用/mj+关键词（支持中文）开启绘图功能，否则自动使用GPT，使用聊天框上方的上传文件上传图片后自动开启垫图，识图，混图功能，更多使用说明[点击查看](https://ssw9noe1h6.feishu.cn/docx/Eooid40EVoHXiMxqqS5cA6DJnpc)\n\n[❤️ 点这里关注主页](https://link3.cc/aipro)\n\n🍯 状态监测：\n\n[![状态](https://status.aigc369.com/api/badge/15/uptime/1?suffix=%25%E5%8F%AF%E7%94%A8&color=00cc00&labelColor=777777&style=flat-square)](https://status.aigc369.com/status/aipro)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
