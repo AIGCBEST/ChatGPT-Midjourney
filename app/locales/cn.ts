@@ -7,8 +7,8 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "当前密钥 Key 不正确或为空，请在[设置](/#/settings)中输入密钥 Key 后解锁无限使用\n\n密钥免费更新在QQ频道-Midjourney 👉 [点击加入](https://pd.qq.com/s/43ts2mp9l)"
-      : "当前密钥 Key 不正确或为空，请在[设置](/#/settings)中输入密钥 Key 后解锁无限使用\n\n密钥免费更新在QQ频道-Midjourney 👉 [点击加入](https://pd.qq.com/s/43ts2mp9l)",
+      ? "当前密钥 Key 不正确或为空，请在[设置](/#/settings)中输入密钥 Key 后解锁永久免费无限使用\n\n密钥免费更新在QQ频道-Midjourney 👉 [点击加入](https://pd.qq.com/s/43ts2mp9l)"
+      : "当前密钥 Key 不正确或为空，请在[设置](/#/settings)中输入密钥 Key 后解锁永久免费无限使用\n\n密钥免费更新在QQ频道-Midjourney 👉 [点击加入](https://pd.qq.com/s/43ts2mp9l)",
   },
   Auth: {
     Title: "需要密码",
