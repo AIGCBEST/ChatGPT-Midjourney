@@ -142,7 +142,7 @@ export function SideBar(props: { className?: string }) {
           icon={<GemIcon />}
           text={shouldNarrow ? undefined : "Pro"}
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.open("http://hello.aigc369.com", "_blank")}
+          onClick={() => window.open("http://new.aigc369.com", "_blank")}
           shadow
         />
       </div>
